@@ -36,18 +36,8 @@ public class LowestCommonMultiple implements Function {
 	 * This is the ternary method
 	 */
 	public int compute(int a, int b, int c) {
-		int x, y, t, lcm;
-		x = compute(a, b);
-		y = c;
 
-		while (y != 0) {
-			t = y;
-			y = x % y;
-			x = t;
-		}
-
-		lcm = (compute(a, b) * c) / x;
-		return lcm;
+		return compute(compute(a, b), c);
 
 	}
 

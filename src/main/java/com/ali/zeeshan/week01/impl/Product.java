@@ -24,7 +24,7 @@ public class Product implements Function {
 	 * This is the ternary method
 	 */
 	public int compute(int a, int b, int c) {
-		return compute(a, b) * c;
+		return compute(compute(a, b), c);
 	}
 
 	public static void main(String[] args) {
