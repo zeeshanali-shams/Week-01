@@ -2,8 +2,12 @@ package com.ali.zeeshan.week01.impl;
 
 import com.ali.zeeshan.week01.iface.Function;
 
+<<<<<<< HEAD
 /**
  * This class will work as a method to perform multiplication.
+=======
+/**This class will work as a method to perform multiplication.
+>>>>>>> 1a7965f8eee849cc755293a30ef2f564c654b310
  */
 public class Product implements Function {
 	/**
@@ -24,7 +28,11 @@ public class Product implements Function {
 	 * This is the ternary method
 	 */
 	public int compute(int a, int b, int c) {
+<<<<<<< HEAD
 		return compute(a, b) * c;
+=======
+		return a * b * c;
+>>>>>>> 1a7965f8eee849cc755293a30ef2f564c654b310
 	}
 
 	public static void main(String[] args) {
