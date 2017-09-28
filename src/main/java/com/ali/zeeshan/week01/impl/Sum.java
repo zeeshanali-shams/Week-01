@@ -1,20 +1,22 @@
 package com.ali.zeeshan.week01.impl;
 
+import com.ali.zeeshan.week01.iface.Function;
+
 /*This class will work as a method to perform addition.
  */
-public class Sum {
+public class Sum implements Function {
 	// unary
-	int compute(int a) {
+	public int compute(int a) {
 		return a + 10;
 	}
 
 	// binary
-	int compute(int a, int b) {
+	public int compute(int a, int b) {
 		return a + b;
 	}
 
 	// ternary
-	int compute(int a, int b, int c) {
+	public int compute(int a, int b, int c) {
 		return a + b + c;
 	}
 

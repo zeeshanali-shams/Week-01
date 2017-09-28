@@ -1,10 +1,12 @@
 package com.ali.zeeshan.week01.impl;
 
+import com.ali.zeeshan.week01.iface.Function;
+
 /*This class will work as a method to find lowest common multiple.
  */
-public class LowestCommonMultiple {
+public class LowestCommonMultiple implements Function {
 	// unary
-	int compute(int a) {
+	public int compute(int a) {
 		int x, y, t, lcm;
 		x = a;
 		y = 15;
@@ -21,7 +23,7 @@ public class LowestCommonMultiple {
 	}
 
 	// binary
-	int compute(int a, int b) {
+	public int compute(int a, int b) {
 		int x, y, t, lcm;
 		x = a;
 		y = b;
@@ -37,7 +39,7 @@ public class LowestCommonMultiple {
 	}
 
 	// ternary
-	int compute(int a, int b, int c) {
+	public int compute(int a, int b, int c) {
 		int x, y, t, lcm1, lcm;
 		x = a;
 		y = b;
