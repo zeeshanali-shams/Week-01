@@ -5,7 +5,9 @@ import com.ali.zeeshan.week01.iface.Function;
 /*This class will work as a method to find lowest common multiple.
  */
 public class LowestCommonMultiple implements Function {
-	// unary
+	/*
+	 * This is the unary method
+	 */
 	public int compute(int a) {
 		int x, y, t, lcm;
 		x = a;
@@ -22,7 +24,9 @@ public class LowestCommonMultiple implements Function {
 
 	}
 
-	// binary
+	/*
+	 * This is the binary method
+	 */
 	public int compute(int a, int b) {
 		int x, y, t, lcm;
 		x = a;
@@ -38,7 +42,9 @@ public class LowestCommonMultiple implements Function {
 		return lcm;
 	}
 
-	// ternary
+	/*
+	 * This is the ternary method
+	 */
 	public int compute(int a, int b, int c) {
 		int x, y, t, lcm1, lcm;
 		x = a;
